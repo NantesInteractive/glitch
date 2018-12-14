@@ -1,9 +1,9 @@
 {
   "//": "Start Glitch's local server.",
   "scripts": {
-    "start": "/opt/watcher/app-types/static/start.sh"
+    "start": "ws --port 3000 --log.format combined --directory . --blacklist '/.env' '/.data' '/.git'"
   },
   "dependencies": {
-    "cwebp-bin": "5.0.0"
+    "cwebp-bin": "^5.0.0"
   }
 }
