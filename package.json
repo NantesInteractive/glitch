@@ -1,0 +1,6 @@
+{
+  "//": "Start Glitch's local server.",
+  "scripts": {
+    "start": "/opt/watcher/app-types/static/start.sh"
+  }
+}
